@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { NgModule, Component, OnInit, NgZone, ViewChild, ElementRef } from '@angular/core';
+import { MapsAPILoader,AgmCoreModule } from '@agm/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MapPractice2';
+  
 }
